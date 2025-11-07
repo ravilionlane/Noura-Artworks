@@ -4,7 +4,7 @@ body{
     color: #6c5299;
 }
 header{
-    background-image: url('/latihan_asri/images/header2.png');
+    background-image: url('header2.png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -269,4 +269,5 @@ footer{
     color: #6c5299;
     font-size: 0.9rem;
     font-weight: lighter;
+
 }
