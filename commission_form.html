@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission Form | Noura Artworks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Fredoka:wght@300..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="commission_form.css">
+    <link rel="icon" href="/latihan_asri/images/favicon Noura.ico" type="png">
+</head>
+<body>
+    <header>
+        <h1>Commission Request Form</h1>
+        <p>Please provide a clear reference for more detailed results.</p>
+    </header>
+
+    <div class="form-container">
+        <h2>Fill in your commission details below</h2>
+        <form id="commissionForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="type">Type of Commission</label>
+            <select id="type" name="type" required>
+                <option value="">-- Select Commission Type --</option>
+                <option value="icon">Icon</option>
+                <option value="fullrendered">Full Rendered</option>
+            </select>
+
+            <label for="socials">Your Social Media (X/Twitter, Instagram, Discord, etc)</label>
+            <input type="text" id="socials" name="socials" placeholder="Enter your social media" required>
+
+            <div class="file-group">
+                <label for="character-ref">Character Reference Sheet</label>
+                <input type="file" id="character-ref" name="character-ref" accept="image/*">
+
+                <label for="expression-ref">Face Expression Reference</label>
+                <input type="file" id="expression-ref" name="expression-ref" accept="image/*">
+
+                <label for="pose-ref">Pose Reference</label>
+                <input type="file" id="pose-ref" name="pose-ref" accept="image/*">
+            </div>
+
+            <label for="description">More Description</label>
+            <textarea id="description" name="description" placeholder="Describe your commission idea..."></textarea>
+
+            <label for="payment">Payment Method</label>
+            <select id="payment" name="payment" required>
+                <option value="">-- Choose a Payment Option --</option>
+                <option value="mandiri">Bank Mandiri</option>
+                <option value="bca">Bank BCA</option>
+                <option value="shopeepay">ShopeePay</option>
+                <option value="gopay">GoPay</option>
+                <option value="dana">DANA</option>
+            </select>
+
+            <label for="deadline">Deadline (if any)</label>
+            <input type="date" id="deadline" name="deadline">
+
+            <button type="submit" class="submit-btn">Submit Commission Request</button>
+        </form>
+
+        <div class="back-button">
+            <a href="UTS.html" class="button-back">← Back to Home</a>
+        </div>
+    </div>
+
+    <footer>© 2025 Noura Artworks. All rights reserved.</footer>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Thank you for your order! 💜</h3>
+            <p>Your commission request has been received. Noura will contact you soon!</p>
+        <button id="closePopup">Okay!</button>
+        </div>
+    </div>
+
+    <script src="commission_form.js"></script>
+</body>
+</html>

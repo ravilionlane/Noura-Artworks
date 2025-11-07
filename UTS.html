@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noura Artworks | Digital Illustration Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Fredoka:wght@300..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="UTS.css">
+    <link rel="icon" href="/latihan_asri/images/favicon Noura.ico" type="png">
+</head>
+<body>
+    <header id="home">
+        <h1>Noura Artworks</h1>
+        <p>Digital Illustration & Character Design Studio</p>
+    </header>
+
+    <marquee>✨ Commission slots are OPEN! Contact us via form or X (Twitter) ✨</marquee>
+
+    <nav>
+        <a href="#home" onclick="scrollToSection('home')">Home</a>
+        <a href="#about" onclick="scrollToSection('about')">About</a>
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>About the Artist</button>
+            <div class="dropdown-menu information-grid">
+                <div>
+                    <div class="dropdown-links">
+                        <a href="sample.html" class="link">Sample</a>
+                        <a href="tos.html" class="link">Terms of Service</a>
+                        <a href="pricelist.html" class="link">Pricelist</a>
+                        <a href="commsprogress.html" class="link">Commission Progress</a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-ghost" id="backsoundBtn">Backsound</button>
+            <audio id="backsound" src="/latihan_asri/images/On Sun-Kissed Vines Reverse_ 1999 x Assassin's Creed OST LOBBY MUSIC.mp3" loop></audio>
+        </div>
+    </nav>
+
+    <section class="intro-section" id="about">
+        <h2>What is Noura Artworks?</h2>
+        <p>Noura Artworks is a digital illustration and character design studio created with love by Noura — a passionate artist who loves bringing imagination to life through colors, stories, and expressive characters. From fan art to original works, each piece is crafted with warmth, detail, and creativity that reflects both emotion and narrative.</p>
+    </section>
+
+    <section class="cta-section">
+        <h2>Want to commission your own character?</h2>
+        <p>Let’s bring your ideas to life! Whether it’s your OC, fanart, or a custom illustration — I’d love to draw it for you. <br><b>Don't forget to read the applicable Terms of Service first before ordering ♡</b></p>
+        <a href="commission_form.html" class="cta-button">Fill the Form!</a>
+    </section>
+
+    <main>
+        <section class="artist-section">
+            <h2>Meet the Artist</h2>
+        <div class="card" id="abouttheartist">
+            <img src="/latihan_asri/images/KTP-min.jpg" alt="Noura's Portrait" class="ava">
+            <div class="info">
+                <h1 class="name">Noura</h1>
+                <p class="desc">Hi, I'm Noura! A digital artist and full-time student from Indonesia who enjoys creating fan art and illustrations.</p>
+                <p class="status">COMMISSION STATUS: <strong>OPEN FOR LOCAL (INDONESIA)</p>
+
+                <div class="buttons">
+                    <a href="noura_about.html" class="btn">Read more about the artist</a>
+                </div>
+
+                <p class="descp">You can contact me through here:</p>
+                <div class="socials">
+                    <a href="https://x.com/noura_a001"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/noura.a001"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@noura.a001?_r=1&_t=ZS-91B3hPmKRL6"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="mailto:nouraally00@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>© 2025 Noura Artworks. All rights reserved.</footer>
+    
+    <script src="UTS.js" defer></script>
+</body>
+</html>

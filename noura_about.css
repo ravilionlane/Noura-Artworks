@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #efe6f7;
+    color: #6c5299;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    margin-top: 3rem;
+}
+header h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #6c5299;
+    margin-bottom: 0.3rem;
+    font-family: 'Rouge Script';
+}
+header p{
+    font-size: 1.1rem;
+    color: #85689e;
+    margin-bottom: 2rem;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+    gap: 3rem;
+}
+.artist-photo{
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.artist-photo img{
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 6px 15px rgba(108, 82, 153, 0.25);
+}
+.artist-info{
+    flex: 1.2;
+    max-width: 800px;
+    background-color: #ffffffb0;
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 4px 12px rgba(108, 82, 153, 0.2);
+}
+.artist-info h2{
+    font-size: 1.8rem;
+    color: #6c5299;
+    margin-bottom: 1rem;
+}
+.artist-info p{
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.artist-info strong{
+    color: #5a3c87;
+}
+@media (max-width: 900px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .artist-info {
+        text-align: center;
+    }
+}
+.back-button{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.button-back{
+    background: none;
+    border: 2px solid #6c5299;
+    color: #6c5299;
+    padding: 10px 24px;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+.button-back:hover{
+    background-color: #6c5299;
+    color: #efe6f7;
+}
+footer{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 0.9rem;
+    color: #9b86b9;
+    padding-bottom: 1.5rem;
+}

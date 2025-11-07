@@ -1,0 +1,79 @@
+body{
+    background-color: #efe6f7;
+    font-family: 'Fredoka';
+    color: #6c5299;
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+.intro h2{
+    font-family: 'Rouge Script';
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #6c5299;
+}
+.intro p{
+    max-width: 700px;
+    margin: 0 auto;
+    color: #85689e;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+.art-card{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+.art-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.art-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.art-card p{
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #6c5299;
+}
+.back-button{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.button-back{
+    background: none;
+    border: 2px solid #6c5299;
+    color: #6c5299;
+    padding: 10px 24px;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+.button-back:hover{
+    background-color: #6c5299;
+    color: #efe6f7;
+}
+footer{
+    text-align: center;
+    padding: 1.5rem;
+    color: #6c5299;
+    font-size: 0.9rem;
+    background-color: #efe6f7;
+}

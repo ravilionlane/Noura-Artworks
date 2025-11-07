@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #efe6f7;
+    color: #6c5299;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    margin-top: 3rem;
+}
+header h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #6c5299;
+    margin-bottom: 0.3rem;
+    font-family: 'Rouge Script';
+}
+header p{
+    font-size: 1.1rem;
+    color: #85689e;
+    margin-bottom: 2rem;
+}
+.progress-section{
+    margin: 3rem auto;
+    width: 80%;
+    background-color: #ffffff90;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(108, 82, 153, 0.2);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1rem;
+}
+th{
+    background-color: #6c5299;
+    color: #efe6f7;
+    padding: 1rem;
+    font-weight: 700;
+}
+td{
+    padding: 1rem;
+    border-bottom: 1px solid #9b86b9;
+}
+tr:hover{
+    background-color: #f2ecfa;
+    transition: 0.3s;
+}
+.status{
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+.pending{
+    background-color: #ffcf70;
+    color: #6c5299;
+}
+.in-progress{
+    background-color: #a88fd8;
+    color: white;
+}
+.completed{
+    background-color: #9ae39a;
+    color: #4e6b4e;
+}
+.back-button{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.button-back{
+    background: none;
+    border: 2px solid #6c5299;
+    color: #6c5299;
+    padding: 10px 24px;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+.button-back:hover{
+    background-color: #6c5299;
+    color: #efe6f7;
+}
+footer{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 0.9rem;
+    color: #9b86b9;
+    padding-bottom: 1.5rem;
+}
